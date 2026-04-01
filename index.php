@@ -8,5 +8,6 @@
 <body>
     <h1>php system</h1>
     <p>php system is a simple php framework for learning and building small projects.</p>   
+    <h2>Features</h2>
 </body>
 </html>
