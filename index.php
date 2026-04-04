@@ -10,8 +10,8 @@
     <?php
     include "includes/people.php";
 
-    $object = new NewClass();
-    echo $object->owner();
+    $object = new people();
+    echo $object->name();
     ?>
 </body>
 </html>
