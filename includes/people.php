@@ -3,7 +3,7 @@
 class People{
    
      private $name = "harrison";
-     private $age = 20;
+     protected $age = 20;
      private $gender = "male";
 
      public function name(){
@@ -27,5 +27,18 @@ class NewClass{
 
    
   return $a; }
+
+}
+
+class NewClass2 extends People{
+
+public function own() {
+
+$a= $this->age;
+
+return $a;
+}
+
+
 
 }
