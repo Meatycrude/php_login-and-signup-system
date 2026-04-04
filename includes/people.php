@@ -16,6 +16,6 @@ class NewClass{
    $c = "harrison otieno";
 
    
-  return $c; }
+  return $a; }
 
 }
