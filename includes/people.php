@@ -2,10 +2,20 @@
 
 class People{
    
-     public $name = "harrison";
-     public $age = 20;
-     public $gender = "male";
+     private $name = "harrison";
+     private $age = 20;
+     private $gender = "male";
+
+     public function name(){
+          
+     $a = $this-> name;
+
+     return $a;
+     
+     
+         }
 }
+
 
 class NewClass{
 
