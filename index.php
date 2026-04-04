@@ -7,8 +7,11 @@
     <link href="index.css" rel="stylesheet" >
 </head>
 <body>
-    <h1 class="heading">php system</h1>
-    <p>php system is a simple php framework for learning and building small projects.</p>   
-    <h2>Features</h2>
+    <?php
+    include "includes/people.php";
+
+    $object = new NewClass();
+    echo $object->owner();
+    ?>
 </body>
 </html>
