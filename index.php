@@ -9,11 +9,16 @@
 <body>
     <?php
     include "includes/people.php";
+    include "includes/person.php";
+    
 
     $object = new people();
     
     $object2 = new NewClass2();
     echo $object2->own();
+
+    $loc = new Person();
+    echo $loc->location("nairobi");
     ?>
 </body>
 </html>
