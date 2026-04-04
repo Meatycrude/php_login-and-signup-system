@@ -11,7 +11,9 @@
     include "includes/people.php";
 
     $object = new people();
-    echo $object->name();
+    
+    $object2 = new NewClass2();
+    echo $object2->own();
     ?>
 </body>
 </html>
