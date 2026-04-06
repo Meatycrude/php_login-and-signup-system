@@ -15,6 +15,14 @@
 
     $computer1= new Computer("Macbook Pro", "Apple", 2000);
     $computer2= new Computer("Surface Laptop", "Microsoft", 1500);
+    $person1 = new person("John", 20, "Nairobi");
+
+    echo $person1->name;
+    echo "<br>";
+    echo $person1->location;
+    echo "<br>";
+    echo $person1->age;
+    echo "<br>";
 
     echo $computer1->name;
     echo "<br>";
