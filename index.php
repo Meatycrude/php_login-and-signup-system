@@ -10,15 +10,19 @@
     <?php
     include "includes/people.php";
     include "includes/person.php";
+    include "includes/computer.php";
     
 
-    $object = new people();
-    
-    $object2 = new NewClass2();
-    echo $object2->own();
+    $computer1= new Computer("Macbook Pro", "Apple", 2000);
+    $computer2= new Computer("Surface Laptop", "Microsoft", 1500);
 
-    $loc = new Person();
-    echo $loc->location("nairobi");
+    echo $computer1->name;
+    echo "<br>";
+    echo $computer1->brand;
+    echo "<br>";
+    echo $computer1->price;
+    echo "<br>";
+
     ?>
 </body>
 </html>
