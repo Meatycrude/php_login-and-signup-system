@@ -6,5 +6,11 @@ class Drink{
    
 
 
+   public static function setDrinkingAge($age){
+
+    self::$drinkingAge = $age;
 
 }
+
+}
+
