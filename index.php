@@ -1,4 +1,7 @@
- 
+ <?php
+include_once 'includes/class-autoload.inc.php';
+declare(strict_types=1);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,3 +32,5 @@
     
 </body>
 </html>
+
+
