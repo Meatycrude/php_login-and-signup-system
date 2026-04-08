@@ -10,7 +10,7 @@
 </head>
 <body>
     <form action="calculate.php" method="post">
-        <p>simple calculator</p>
+        <h2>simple calculator</h2>
 
         <input type="number" name="num1" placeholder="number 1">
           <select name="operator">
