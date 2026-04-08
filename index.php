@@ -1,3 +1,5 @@
+ 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +14,16 @@
     include "includes/person.php";
     include "includes/computer.php";
     include "drink.php";
+    include "classes/vehicle.php";
     
 
     $computer1= new Computer("Macbook Pro", "Apple", 2000);
     $computer2= new Computer("Surface Laptop", "Microsoft", 1500);
     $person1 = new person("John", 20, "Nairobi");
+    $vehicle1 = new Vehicle("Toyota", "Camry", 2020);
+
+    echo $vehicle1->getInfo();
+    echo "<br>";
      
     echo Drink::$drinkingAge;
 
