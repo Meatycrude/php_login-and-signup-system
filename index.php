@@ -9,31 +9,23 @@
     <link href="index.css" rel="stylesheet" >
 </head>
 <body>
-    <?php
-    include "includes/people.php";
-    include "includes/person.php";
-    include "includes/computer.php";
-    include "drink.php";
-    include "classes/vehicle.php";
+    <form action="calculate.php" method="post">
+        <p>simple calculator</p>
+
+        <input type="number" name="num1" placeholder="number 1">
+          <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" name="num2" placeholder="number 2">
+        <button type="submit">Calculate</button>
+
+
+
+
+    </form>
     
-
-    $computer1= new Computer("Macbook Pro", "Apple", 2000);
-    $computer2= new Computer("Surface Laptop", "Microsoft", 1500);
-    $person1 = new person("John", 20, "Nairobi");
-    $vehicle1 = new Vehicle("Toyota", "Camry", 2020);
-
-    echo $vehicle1->getInfo();
-    echo "<br>";
-     
-    echo Drink::$drinkingAge;
-
-    echo $computer1->name;
-    echo "<br>";
-    echo $computer1->brand;
-    echo "<br>";
-    echo $computer1->price;
-    echo "<br>";
-
-    ?>
 </body>
 </html>
