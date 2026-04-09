@@ -1,6 +1,6 @@
- <?php
-include_once 'includes/class-autoload.inc.php';
+<?php
 declare(strict_types=1);
+include_once 'includes/class-autoload.inc.php'
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ declare(strict_types=1);
     <link href="index.css" rel="stylesheet" >
 </head>
 <body>
-    <form action="calculate.php" method="post">
+    <form action="includes/class.inc.php" method="post">
         <h2>simple calculator</h2>
 
         <input type="number" name="num1" placeholder="number 1">
