@@ -11,7 +11,7 @@ class Calc{
         $this->num2 = $num2;
     }
 
-    public function calculate() {
+    public function calc() {
       
     switch($this->operator) {
 
