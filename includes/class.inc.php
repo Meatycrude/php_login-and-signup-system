@@ -1,9 +1,9 @@
 <?php
-require "classes/calc.php";
+require "classes/calc.php";kskcjhiks
 
 $operator = $_POST['operator'] ?? '';
-$num1 = $_POST['num1'] ?? 0;
-$num2 = $_POST['num2'] ?? 0;    
+$num1 = $_POST['num1']  0;
+$num2 = $_POST['num2'] 0;    
 
 $calc = new Calc($operator, (float)$num1, (float)$num2);
 
